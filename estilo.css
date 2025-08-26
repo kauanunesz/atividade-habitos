@@ -63,6 +63,14 @@ div.imagens{
     box-shadow: 8px 8px 8px black;
 }
 
+.img1, .img2, .img3{
+    transition: transform 1s ease;
+}
+
+.img1:hover, .img2:hover, .img3:hover{
+    transform: scale(1.2);
+}
+
 .imagens p{
     justify-self: center;
 }
